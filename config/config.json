@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-react-crud-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxReactCrud/SpFxReactCrudWebPart.js",
+          "manifest": "./src/webparts/spFxReactCrud/SpFxReactCrudWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxReactCrudWebPartStrings": "lib/webparts/spFxReactCrud/loc/{locale}.js"
+  }
+}
